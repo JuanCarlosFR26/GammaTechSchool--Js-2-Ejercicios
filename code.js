@@ -239,6 +239,9 @@ console.log(phrase2.substring(phrase2.indexOf('because'), phrase2.indexOf('is'))
 let stringCount = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
 console.log(stringCount.toLowerCase().match(/love/g)); // g --> The "g" modifier specifies a global match. A global match finds all matches (compared to only the first).
 
+let stringCount2 = 'Love is the best thing in this world. Some found their love and some are still looking for their love.';
+console.log(stringCount2.split('love').length);
+
 
 // Ex. 2
 let stringCause = 'You cannot end a sentence with because because because is a conjunction';
@@ -253,3 +256,5 @@ let annual = 'He earns 5000 euro from salary per month, 10000 euro annual bonus,
 let arrNumAnnual = annual.match(/(\d+)/g);
 let sumArrAnnual = (parseInt(arrNumAnnual[0]) * 12) + parseInt(arrNumAnnual[1]) + (parseInt(arrNumAnnual[2]) * 12);
 console.log(`The total annual income is: ${sumArrAnnual}`);
+
+
