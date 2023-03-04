@@ -23,7 +23,7 @@ console.log(challenge.toLocaleLowerCase());
 console.log(challenge.substring(0, 4));
 
 // 7. Slice out the phrase Days Of JavaScript from Long Days Of JavaScript.
-console.log(challenge.substring(5, 24));
+console.log(challenge.slice(5, 24));
 
 // 8. Check if the string contains a word Script using includes() method
 console.log(challenge.includes('Script'));
